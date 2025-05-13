@@ -14,7 +14,7 @@ func TestFileExtensionFromPath(t *testing.T) {
 		expectedExt string
 	}
 
-	var parseTests = []parseTest{
+	parseTests := []parseTest{
 		{
 			inputString: "short film.mkv",
 			expectedExt: "mkv",
